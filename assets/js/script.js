@@ -1,8 +1,7 @@
-import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
+// import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-
 
 $().ready(function() {
     $('#enviarCorreo').click(function(){
